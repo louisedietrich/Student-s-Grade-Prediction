@@ -11,7 +11,7 @@ Our dataset is made of different observations of 395 students, provided by the [
 
 We used a backward method on our linear regression to obtain this final model, keeping only the significant variables (p-value < 5%)
 
-![final model](Images/model.jpg)
+![](Images/model.JPG)
 
 We found a R squared of 17,02% wich is low but can be explained by the fact that there are probably many other variables which could explain the final grade of the students.</br>
 We also have a relatively small dataset. Having more observations would give us a greater power to detect patterns or differences and thus increase our predictive power.
@@ -22,14 +22,14 @@ To assess the validity of our model, we will test the hypothesis of the residual
 
 ##### Mean of the residuals
 
-![Mean hypothesis](Images/mean.jpg)
+![](Images/mean.JPG)
 
 The mean of our residuals is effectively equal to 0 
 
 ##### Normal distribution of the residuals
 
 We test the normal distribution of our residuals with the Shapiro-Wilkinson test:
-![Normal Distribution](Images/normality.jpg)
+![](Images/normality.JPG)
 
 The p-value is < 5%.
 We reject H0 so the residuals are not normally distributed.
@@ -39,7 +39,7 @@ The assumption of the normality of the residuals is not the most invalidating. T
 
 We test the homoscedasticity of our residuals with the Breusch Pagan test:
 
-![Homoscedasticity](Images/homoscedasticty.jpg)
+![](Images/homoscedasticty.JPG)
 
 The p-value is > 5%, so we accept the homoscedasticity hypothesis
 
@@ -47,7 +47,7 @@ The p-value is > 5%, so we accept the homoscedasticity hypothesis
 
 We try to detect the absence of autocorrelation thanks to the variance inflation factors (VIF).
 
-![VIF](Images/autocorrelation.jpg)
+![](Images/autocorrelation.JPG)
 
 All VIF are < 5, so there is no autocorrelation among the variables of our model. 
 
