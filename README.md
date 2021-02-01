@@ -39,7 +39,7 @@ The assumption of the normality of the residuals is not the most invalidating. T
 
 We test the homoscedasticity of our residuals with the Breusch Pagan test:
 
-![](Images/homoscedasticty.JPG)
+![](Images/homoscedasticity.JPG)
 
 The p-value is > 5%, so we accept the homoscedasticity hypothesis
 
