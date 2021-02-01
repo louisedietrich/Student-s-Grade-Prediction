@@ -49,7 +49,11 @@ We try to detect the absence of autocorrelation thanks to the variance inflation
 
 ![](Images/autocorrelation.JPG)
 
-All VIF are < 5, so there is no autocorrelation among the variables of our model. 
+##### No multicollinearity among variables
+
+![](Images/vif.JPG)
+
+All VIF are < 5, so there is no multicollinearity among the variables of our model. 
 
 ### Conclusion
 
